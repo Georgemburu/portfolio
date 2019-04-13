@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+    {% comment %} SKILLS SECTION {% endcomment %}
+    {{kwargs}}
+    <section class="skills-section">
+        {% include 'inc/heading.html' %}
+        {% include 'inc/url_tags.html' %}
+        {% include 'inc/category.html' %}
+
+        {% comment %} {% include 'inc/category.html' %} {% endcomment %}
+        {% include 'inc/showcase.html' %}
+        {% include 'inc/paginator.html' %}  
+    </section>
+    
+{% endblock %}

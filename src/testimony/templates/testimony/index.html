@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include 'inc/heading.html' %}
+    <section class="home-section container" style=" text-align:center; padding-top:10vh !important;">
+
+        {% for t in testimonies%}
+        <article class="media content-section " style="height: 10rem; width: 50vw; box-shadow:0px 0px 0px 1px black;margin:auto;margin-top:0;margin-bottom:6px; background-color:#f2f2f2">
+          <img class="rounded-circle" src="{{ t.image.url }}" width="70rem">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ t.name }}</a>
+            </div>
+            <p class="article-content">{{ t.body }}</p>
+          </div>
+        </article>
+        {% endfor %}
+
+    </section>
+    
+    
+{% endblock %}

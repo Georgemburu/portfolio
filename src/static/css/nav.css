@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    _border: 1px solid black;
+    
+}
+nav >div {
+    margin: auto;
+    _border: 1px solid black;
+}
+nav a{
+    padding: 0px 1rem;
+    margin-right: 0.5rem;
+    _border: 1px solid black;
+}
+.logo-div p {
+    margin: auto;
+}
+nav .a-div i {
+    margin-right: 0.5rem;
+}
+

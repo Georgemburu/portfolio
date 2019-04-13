@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+        {% include 'inc/heading.html' %}
+
+    <section class="home-section container" style="padding-top: 3rem !important;">
+        <div style="display:grid;">
+            {% for c in conn %}
+                
+                    <div style="background-color:green;width:5rem; height:5rem;margin:auto;line-height:5rem;font-size:5rem;margin-bottom:4px;">
+                        <a href="{{c.url|safe}}" style="color:white;">{{ c.icon_url|safe}}</a>
+                    </div>
+               
+            {% endfor %}
+        </div>
+    </section>
+   
+    
+{% endblock %}

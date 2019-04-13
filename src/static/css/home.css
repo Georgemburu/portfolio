@@ -1,0 +1,91 @@
+.home-section{
+    _border: 1px solid black;
+    height: calc(92vh);
+    text-align: center;
+    padding-top: 30vh;
+}
+.profession-div, .stars-div{
+    _border: 1px solid black;
+}
+.profession-div > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.profession-div >span:nth-child(1){
+    margin-right: .5rem;
+}
+
+.stars-div > span{
+    font-size: xx-large;
+    font-weight: 100;
+}
+.stars-div > span:nth-child(1){
+    margin-right: .5rem;
+}
+.stars-div > span:nth-child(2){
+    margin-left: .5rem;
+
+}
+.hire-me-div {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.hire-me-div a {
+    background-color: #fcd648;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.scroll-down-div {
+    margin-top: 5rem;
+}
+.scroll-down-div i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* SKILLS SECTION */
+.skills-section {
+    height: 100vh;
+}
+.heading-div {   
+    text-align: center;
+}
+
+.url-tags-div {   
+    padding-left: 1rem;  
+}
+.url-tags-div >a {
+    color: grey;
+}
+
+
+.category-div {  
+    text-align: center;
+    height: 2rem;
+}
+.category-div >a { 
+    padding: 0.2rem 1rem;
+    margin: auto 0;
+}
+
+
+.showcase-section {
+    height: 80vh;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+
+}
+
+
+
+.paginator-div {  
+    text-align: center;
+}
+
+

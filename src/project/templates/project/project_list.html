@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    {{ skills }}
+    <section class="skills-section">
+        {% include 'inc/heading.html' %}
+        {% include 'inc/url_tags.html' %}
+        {% include 'inc/category.html' %}
+        {% include 'inc/showcase.html' %}
+        {% include 'inc/paginator.html' %}  
+    </section>
+    
+{% endblock %}

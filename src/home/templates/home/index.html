@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="home-section">
+        <div class="home-area">
+            <div class="profession-div">
+                <span>WEB</span>
+                <span>DEVELOPER</span>
+               
+            </div>
+            <div class="stars-div">
+                <span>***</span>
+                <span>***</span>        
+            </div>
+            <div class="hire-me-div">
+                <a href="">Hire Me</a>
+            </div>
+            <div class="scroll-down-div">
+                <i class="fas fa-chevron-down" id="down_scroller"></i>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="skills-section" id="skills">
+        {% include 'inc/heading.html' %}
+        {% include 'inc/url_tags.html' %}
+        {% include 'inc/showcase.html' %}
+        {% include 'inc/paginator.html' %}  
+    </section>
+    
+{% endblock %}
